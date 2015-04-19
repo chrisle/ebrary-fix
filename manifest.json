@@ -1,0 +1,47 @@
+{
+  "name": "eBrary's interface fixer",
+
+  "version": "1.0",
+
+  "manifest_version": 2,
+
+  "description": "Fixes eBrary's interface do you can look at the books.",
+
+  "icons": {
+    "16": "icons/bandaid16.png",
+    "48": "icons/bandaid64.png",
+    "128": "icons/bandaid128.png"
+  },
+
+  "page_action": {
+    "default_icon": "icons/bandaid16.png",
+    "default_title": "eBrary interface fix"
+  },
+
+  "background": {
+    "scripts": ["src/fix.js"]
+  },
+
+  "default_locale": "en",
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "https://kesher.jtsa.edu/*"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://kesher.jtsa.edu/*"
+      ],
+      "js": [
+        "src/inject.js"
+      ]
+    }
+  ],
+
+  "web_accessible_resources": [
+    "src/patch.js"
+  ]
+}
