@@ -19,11 +19,8 @@ The next time you're in eBrary and you click to open a book online you'll see a 
 1. In Chrome, go to "Settings" then click on "Extensions" on the left hand side.
 2. Find the "eBrary fix" extension and click on the trash can next to it.
 
-## About
-
-Just to be on the safe side: I wrote this software to help my wife. It is open source software. Free to use and/or distribute it. It would be nice if you said thanks, but I'm not expecting it. You may contact me if you would like but this plugin comes with no warranties or technical support explicit or implied. Also, this was done on my own time and has no connection to my employer.
-
 ---
 
 ![Fixed](https://raw.githubusercontent.com/chrisle/ebrary-fix/master/meme.png)
 
+It's open source software. Feel free to use it and distribute it, etc.
