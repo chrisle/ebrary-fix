@@ -7,7 +7,7 @@ The reason why the books don't show up in eBrary is because there's a typo in on
 
 # How to install
 
-1. Download the [extension](https://github.com/chrisle/ebrary-fix/raw/master/dist/ebrary-fix.crx). (It's a CRX file.)
+1. Download the [extension](https://github.com/chrisle/ebrary-fix/raw/master/dist/ebrary-fix.crx). (Click this link to download the CRX file to your computer)
 2. In Chrome, go to "Settings" then click on "Extension"s on the left hand side.
 3. Take the file you downloaded and drag and drop it onto the Chrome browser.
 4. Chrome will ask you to approve installing it. Say yes.
