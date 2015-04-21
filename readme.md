@@ -3,7 +3,7 @@ eBrary fix
 
 # What's the problem?
 
-The reason why the books don't show up in eBrary is because there's a typo in one of the template files. Instead of ```%>``` it's actually ```% >``` (notice there's an space in between). It only happens in three places but the first one causes JavaScript to have an exception error that stops the book from appearing properly. This Chrome extension detects then automatically corrects the programming typo so the books appear normally.
+The reason why the books don't show up in eBrary is because there's a typo in one of the template files. Instead of ```%>``` it's actually ```% >``` (notice there's an space in between?). It only happens in three places but it causes the JavaScript to have error that stops the book from appearing properly. This Chrome extension detects the typo and automatically corrects it so the books appear normally. This extension will simply do nothing once eBrary fixes the typo permanently.
 
 # How to install
 
