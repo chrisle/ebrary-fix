@@ -3,7 +3,7 @@ eBrary fix
 
 # What's the problem?
 
-The reason why the books don't show up in eBrary is because there's a typo in one of the template files. Instead of ```%>``` it's actually ```% >``` (notice there's an space in between?). It only happens in three places but it causes the JavaScript to have error that stops the book from appearing properly. This Chrome extension detects the typo and automatically corrects it so the books appear normally. 
+The reason why the books don't show up in eBrary is because there's a typo in one of the template files. Instead of ```%>``` it's actually ```% >``` (notice there's an space in between?). It only happens in three places but it causes the JavaScript to have error that stops the book from appearing properly. This Chrome extension detects the typo and automatically corrects it so the books appear normally.
 
 # How to install
 
@@ -24,3 +24,10 @@ The next time you're in eBrary and you click to open a book online you'll see a 
 ![Fixed](https://raw.githubusercontent.com/chrisle/ebrary-fix/master/meme.png)
 
 It's open source software. Feel free to use it and distribute it, etc.
+
+---
+
+# Updates
+
+- Aug 19, 2015: Patched build 18
+- Apr 19, 2015: Initial release

@@ -7,9 +7,9 @@ chrome.webRequest.onBeforeRequest.addListener(
     // Redirects the JavaScript to use a patched version inside this
     // chrome extension. If the filename changes on the server side,
     // this extension should stop working.
-    return { redirectUrl: chrome.extension.getURL('src/patch.js') };
+    return { redirectUrl: chrome.extension.getURL('src/build18_patched.js') };
   },
-  { urls: ['https://kesher.jtsa.edu/optimizedresources/js/,DanaInfo=site.ebrary.com,CT=js+mayank_manual_optimized_build17.js'] },
+  { urls: ['https://kesher.jtsa.edu/optimizedresources/js/,DanaInfo=site.ebrary.com,CT=js+mayank_manual_optimized_build18.js'] },
   ['blocking']
 );
 
